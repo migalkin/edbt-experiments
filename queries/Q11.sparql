@@ -10,7 +10,7 @@ select * where {
 ?s2 <http://dbpedia.org/property/1cPlayoffs> ?o3 .
 ?s2 <http://dbpedia.org/ontology/wikiPageID> ?o4 .
 ?s3 <http://dbpedia.org/ontology/wikiPageID>  ?o4 .
-?s2 <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:San_Miguel_Beermen_seasons> .
-?s2 <http://www.w3.org/2002/07/owl#sameAs> <http://www.wikidata.org/entity/Q4599063> .
+?s3 <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:San_Miguel_Beermen_seasons> .
+?s3 <http://www.w3.org/2002/07/owl#sameAs> <http://www.wikidata.org/entity/Q4599063> .
 ?s3 <http://dbpedia.org/property/owners> <http://dbpedia.org/resource/San_Miguel_Corporation> . 
 }
