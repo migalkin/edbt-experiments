@@ -4,7 +4,7 @@ select * where {
 ?s1 <http://dbpedia.org/ontology/genre> <http://dbpedia.org/resource/Ranchera> .
 ?s1 <http://dbpedia.org/ontology/genre> <http://dbpedia.org/resource/Regional_styles_of_Mexican_music> .
 ?s1 <http://dbpedia.org/ontology/subsequentWork> <http://dbpedia.org/resource/Soy_como_soy> .
-?s1 <http://dbpedia.org/property/number> ?o1.
+?s1 <http://dbpedia.org/property/number> ?o1 .
 ?s2 <http://dbpedia.org/property/2cPlace> ?o1 .
 ?s2 <http://dbpedia.org/property/2cPlayoffs> ?o2 .
 ?s2 <http://dbpedia.org/property/1cPlayoffs> ?o3 .
