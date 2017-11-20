@@ -1,0 +1,10 @@
+select * where {
+?s1 <http://dbpedia.org/ontology/equipment> <http://dbpedia.org/resource/Ball> .
+?s1 <http://xmlns.com/foaf/0.1/isPrimaryTopicOf> <http://en.wikipedia.org/wiki/Chaza> .
+?s1 <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Sport_in_Ecuador> .
+?s1 <http://purl.org/linguistics/gold/hypernym> <http://dbpedia.org/resource/Sport> .
+?s1 <http://dbpedia.org/ontology/teamSize> ?o1.
+?s2 <http://dbpedia.org/property/c5g> ?o1.
+?s2 <http://dbpedia.org/property/pos> ?o2 .
+?s2 <http://www.w3.org/2000/01/rdf-schema#label> ?o4 .
+}
