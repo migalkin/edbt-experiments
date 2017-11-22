@@ -1,0 +1,11 @@
+select * where {
+?s1 <http://dbpedia.org/ontology/genre> <http://dbpedia.org/resource/Concert> .
+?s1 <http://dbpedia.org/ontology/artist> <http://dbpedia.org/resource/Ana_Gabriel> .
+?s1 <http://dbpedia.org/ontology/genre> <http://dbpedia.org/resource/Ranchera> .
+?s1 <http://dbpedia.org/ontology/genre> <http://dbpedia.org/resource/Regional_styles_of_Mexican_music> .
+?s1 <http://dbpedia.org/ontology/subsequentWork> <http://dbpedia.org/resource/Soy_como_soy> .
+?s1 <http://dbpedia.org/property/title> ?s2.
+?s2 <http://www.w3.org/2000/01/rdf-schema#comment> ?o1 .
+?s2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?o2 .
+?s2 <http://www.w3.org/2000/01/rdf-schema#label> ?o4
+ }

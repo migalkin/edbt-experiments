@@ -1,0 +1,10 @@
+select * where {
+?s1 <http://dbpedia.org/ontology/category> <http://dbpedia.org/resource/Winter_sport> .
+?s1 <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Bobsleigh> .
+?s1 <http://xmlns.com/foaf/0.1/isPrimaryTopicOf> <http://en.wikipedia.org/wiki/Bobsleigh> .
+?s1 <http://dbpedia.org/ontology/sportGoverningBody> <http://dbpedia.org/resource/International_Bobsleigh_and_Skeleton_Federation> .
+?s1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?s2.
+?s2 <http://www.w3.org/2000/01/rdf-schema#label> ?o1 .
+?s2 <http://www.w3.org/ns/prov#wasDerivedFrom> ?o2 .
+?s2 <http://www.w3.org/2002/07/owl#equivalentClass> ?o4
+ }

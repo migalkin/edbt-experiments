@@ -1,0 +1,8 @@
+select distinct * where {
+?s1 <http://dbpedia.org/ontology/genre> <http://dbpedia.org/resource/Concert> .
+?s1 <http://dbpedia.org/ontology/artist> <http://dbpedia.org/resource/Ana_Gabriel> .
+?s1 <http://dbpedia.org/ontology/genre> <http://dbpedia.org/resource/Ranchera> .
+?s1 <http://purl.org/dc/terms/subject> ?o1 .
+?s1 <http://dbpedia.org/ontology/director> ?o2 .
+?s1 <http://dbpedia.org/ontology/recordLabel> ?o3
+}
